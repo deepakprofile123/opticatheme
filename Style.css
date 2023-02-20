@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+/* header */
+.head{
+    display: flex;
+    background-color: rgb(29, 134, 247);
+}
+nav img{
+    width: 150px;
+    height: 50px;
+    margin: 17px;
+}
+nav ul{
+    display: flex;
+    margin-left: auto;
+    list-style-type: none;
+}
+nav ul li{
+    padding: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 25px;
+}
+nav ul li:hover a{
+    color: aqua;
+}
+.banner{
+    background-color: rgb(8, 8, 59);
+}
+.banner-content{
+    color: white;
+}
+.banner-content h1{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+.banner-area{
+    display: flex;
+    width: 100%;
+}
+.banner-data{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+}
+span{
+    font-size: 50px;
+    font-weight: 50px;
+}
+p{
+    font-size: 35px;
+    padding-top: 50px;
+}
+.banner-image{
+    width: 50%;
+    padding: 50px;
+}
+/* Our vision */
+
+.vision-data img{
+    width: 100%;
+}
+/* Our Focus */
+
+.Focus-content{
+    text-align: center;
+    color: rgb(78, 76, 76);
+}
+.Focus-content h1{
+    font-size: 30px;
+    padding-top: 50px;
+}
+.Focus-content h3{
+    font-size: 50px;
+    padding-top: 20px;
+}
+.focus-image{
+    /* width: 100%; */
+    padding: 30px;
+
+}
+.image-flex{
+    display: flex;
+    width: 100%;
+}.image-flex img{
+    width: 50%;
+    padding: 15px;
+}
+/* for everyone */
+
+.image-flex2{
+
+    text-align: center;
+
+}
+.image-flex2 h1{
+    font-size: 50px;
+}
+.image-flex2 h3{
+    font-size: 30px;
+}
+.image-flex3 img{
+    width: 100%;
+}
+/*  */
+
+.imageflex4{
+    background-color: rgb(172, 222, 243);
+    text-align: center;
+}
+.imageflex4 h1{
+    font-size: 50px;
+}
+.imageflex4 h3{
+    font-size: 30px;
+}
+.flex2 img {
+    width: 100%;
+}
+.box img {
+    width: 100%;
+}
